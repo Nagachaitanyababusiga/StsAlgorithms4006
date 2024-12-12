@@ -1,0 +1,25 @@
+Data structures:
+
+two types 1. Linear 
+          2. Non Linear
+
+Linear: Linked list, stack and queue
+Non Linear: Tree, Graph
+
+Linked List:
+
+Node:
+    it contains data and address
+
+Linked list types: 
+            1. Single ll : single direction is possible
+            2. Double ll : forward and backward directions are possible
+            3. Circular  : 
+                            3a. Singly Circular : forms a loop from last node to first node
+                            3b. Doubly Circular : forms a loop from last node to first node using a double ll.
+
+Stack:
+    follows FILO (first in last out)
+
+Queue:
+    follows FIFO (first in first out)
