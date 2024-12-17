@@ -14,6 +14,30 @@ public class Class1LoopDetection{
         five.next=one;
         System.out.println(computeUsingHash(one));
         System.out.println(computeUsingFloyd(one));
+        //Taking input
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        Node head=null,tail=null;
+        Map<Integer,Node> mp=new HashMap<>();
+        for(int i=0;i<n;i++){
+            int curr=sc.nextInt();
+            if(mp.keySet().contains(curr)){
+                tail.next=mp.get(curr);
+                tail=tail.next;
+                continue;
+            }
+            if(head==null){
+                head=new Node(curr);
+                mp.put(curr,head);
+                tail=head;
+            }else{
+                tail.next=new Node(curr);
+                tail=tail.next;
+                mp.put(curr,tail);
+            }
+        }
+        System.out.println(computeUsingFloyd(head));
+        System.out.println(computeUsingHash(head));
     }
 
     public static boolean computeUsingFloyd(Node head){
