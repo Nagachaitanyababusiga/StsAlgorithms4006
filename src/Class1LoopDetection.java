@@ -20,7 +20,7 @@ public class Class1LoopDetection{
         Node slow=head;
         Node fast=head;
         do { 
-            if(fast==null) return false;
+            if(fast==null||fast.next==null) return false;
             slow=slow.next;
             fast=fast.next.next;
         } while (slow!=fast);
