@@ -1,18 +1,9 @@
-## Getting Started
+## Intro
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Hello Guys, I'm Nagachaitanyababusiga
 
-## Folder Structure
+This Repository is all about codes of STS4006 of WINSEM(2024-25)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+#### Connect with me on linkedIn: [https://www.linkedin.com/in/naga-chaitanya-babu-siga/](Click me!!)
+#### View my Leetcode profile   : [https://leetcode.com/u/Nagachaitanyababusiga/](Click me!!)
+#### Be a friend of mine in Codeforces: [https://codeforces.com/profile/Nagachaitanyababusiga](Click me!!)
