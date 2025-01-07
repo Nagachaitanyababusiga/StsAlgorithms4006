@@ -20,7 +20,7 @@ public class Class4MergeSortINDLL {
             }
             prev=curr;
         }
-        printDetailed(dLLmergeSort(head));
+        printForward(dLLmergeSort(head));
         sc.close();
     }
 
@@ -90,6 +90,15 @@ public class Class4MergeSortINDLL {
             else System.out.println((head.next==null)?"["+head.prev.val+","+head.val+","+-1+"]":"["+head.prev.val+","+head.val+","+head.next.val+"]");
             head=head.next;
         }
+    }
+
+    public static  void printForward(DLLNode head){
+        while(head!=null){
+            if(head.next!=null) System.out.print(head.val+" -> ");
+            else System.out.println(head.val);
+            head=head.next;
+        }
+        System.out.println();
     }
 
 }
