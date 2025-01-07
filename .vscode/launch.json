@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Class3SortBitonicInDLL",
+            "request": "launch",
+            "mainClass": "Class3SortBitonicInDLL",
+            "projectName": "STSAlgorithms_6803f22a"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
