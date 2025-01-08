@@ -52,6 +52,7 @@ public class Class5MinimumStack {
         c.pop();
         System.out.println(c.getMin());
         c.pop();
+        System.out.println(c.top());
         System.out.println(c.getMin());
         sc.close();
     }
