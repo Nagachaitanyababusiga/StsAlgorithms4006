@@ -1,0 +1,10 @@
+Stack
+
+implements FIFO
+
+for adding we use push :- st.push(element)
+
+for removing we use pop :- st.pop() //returns the top most element
+
+for getting the top most element's value :- st.peek() // to know the top most element in the stack
+
