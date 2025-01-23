@@ -1,0 +1,10 @@
+Queue:
+
+peek()-returns the first element of the queue without removing the element
+poll()-returns the first element of the queue and removes it from the queue
+remove()-returns the first element of the queue and removes it from the queue and throws an exception if the
+queue is empty
+
+PriorityQueue:
+
+Maintains the order of the elements in the queue either in ascending or descending order.
