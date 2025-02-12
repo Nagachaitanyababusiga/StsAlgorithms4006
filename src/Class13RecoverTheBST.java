@@ -1,5 +1,5 @@
 
-public class Class13RecoverTheBest {
+public class Class13RecoverTheBST {
 
     public static TreeNode first,middle,last,prev;
 
