@@ -1,0 +1,70 @@
+                    Paper Discussion - (CAT-01) Slot D1+TD1
+
+Question-01: what is the second pointer used in twopointer technique while segregating even and odd nodes?
+Ans: (option 3) It is used to make note of last even node encountered.
+
+Question-02: which linked list types is not suitable for segregating even and odd nodes?
+Ans: (option 4) Bitonic linked List.
+
+Question-03: In celebrity problem which data structure is most efficient?
+Ans: (option 2) Stack.
+
+Question-04: Why does celebrity problem require only O(n) time complexity?
+Ans: (option 1) Elemination of impossible candidates in each step.
+
+Question-05: Which step of sorting Bitonic doubly linked list involves find the bitionic point?
+Ans: (option 4) Traverse th elist to find the transision from increasing to decreasing
+
+Question-06: which is the peak elemnt mean?
+Ans: (option 3) The transision point from increasing to decreasing order
+
+Question-07: Which datastructure is the most efficient to solve stock span?
+Ans: (option 2) Stack
+
+Question-08: Worst time complexity for stock span?
+Ans: O(n)
+
+Question-09: which sorting algorithm does not use extraspace and time complexity is O(n^2)?
+Ans: (option 2) Bubble sort
+
+Question-10: In mergesort what is use of fast.next!=null && fast.next.next!=null in the 'WHILE' condition what if 
+they didn't work properly?
+Ans:  (option 4) The algorithm may run into a null pointer exception or segmetation fault.
+
+Question-11: In which statck the minimum element will be stored when using additional stack approach?
+Ans: (option 1) The head of the minimum stack is the minimum element.
+
+Question-12: What is the best case space complextiy for queue with out space 
+Ans: (option 2) O(1)
+
+Question-13: Which is not a valid stack permuation for sequence [7,6,8]?
+opitons: (a)8,6,7 (b)6,7,8 (c)8,7,6 (d)7,6,8
+Ans: opition: (c)
+
+Question-14: Which of the following can be performed in constant time on a singly linked list?
+Ans: (opition a) deletion from the begining.
+
+Question-15: What is the minimum moves required to solve with 7 disks
+Ans: (opition a) 127
+
+Question-16: which approach is most efficient for solving the towers of hanoi effectively?
+Ans: (opition a) Divide and conquer
+
+Question-17: Which of the not an advantage of a priority queue?
+Ans: (option d) Easy to delete elements in any case.
+
+Question-18: Which of the following to detect a loop in a linked list?
+Ans: (option b) Floyd's cycle algorithm
+
+Question-19: what is advantage of doubly linked in implementing priority queue over an array?
+Ans: (opition b) Easier traversal
+
+Question-20: What is the main difference when performing merge sort
+Ans: (opition d) Double traversal
+
+                Coding Questions
+
+1.) Merge Sort using doubly linked list (s/w company).
+2.) Sorting without extra space (cinema tickets).
+3.) Balanced paranthesis (Text editor).
+4.) Based on queue (Round Robin Algorithm) (3D printing company).
