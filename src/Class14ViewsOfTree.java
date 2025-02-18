@@ -40,7 +40,7 @@ public class Class14ViewsOfTree {
     }
 
 
-    //vertical view
+    //top view
     public static void PrintTopView(TreeNode root){
         Queue<Pair> q=new LinkedList<>();
         q.offer(new Pair(root, 0));
@@ -64,7 +64,7 @@ public class Class14ViewsOfTree {
         System.out.println(res);
     }
 
-    //horizantol view
+    //bottom view
     public static void PrintBottomView(TreeNode root){
         Queue<Pair> q=new LinkedList<>();
         q.offer(new Pair(root, 0));
@@ -86,6 +86,44 @@ public class Class14ViewsOfTree {
         System.out.println(res);
     }
 
+    //Horizantal view
+    public static void PrintHorizantalView(TreeNode root){
+        Queue<TreeNode> q=new LinkedList<>();
+        q.add(root);
+        List<Integer> res=new ArrayList<>();
+        while(!q.isEmpty()){
+            int size=q.size();
+            for(int i=0;i<size;i++){
+                TreeNode n=q.poll();
+                res.add(n.val);
+                if(n.left!=null) q.add(n.left);
+                if(n.right!=null) q.add(n.right);
+            }
+        }
+        System.out.println(res);
+    }
+
+    //VerticalView
+    public static void printVerticalView(TreeNode root){
+        Map<Integer,List<Integer>> mp=new HashMap<>();
+        Queue<Pair> q=new LinkedList<>();
+        q.add(new Pair(root, 0));
+        while(!q.isEmpty()){
+            Pair p=q.poll();
+            TreeNode n=p.node;
+            int hd=p.hd;
+            mp.computeIfAbsent(hd,k->new ArrayList<>()).add(n.val);
+            if(n.left!=null) q.add(new Pair(n.left, hd-1));
+            if(n.right!=null) q.add(new Pair(n.right, hd+1));
+        }
+        List<Integer> lst=new ArrayList<>();
+        for(int i:mp.keySet()) lst.add(i);
+        Collections.sort(lst);
+        List<Integer> res=new ArrayList<>();
+        for(int i:lst) res.addAll(mp.get(i));
+        System.out.println(res);
+    }
+
     public static void main(String[] args) {
         TreeNode root=new TreeNode(1);
         root.left=new TreeNode(2);
@@ -98,6 +136,8 @@ public class Class14ViewsOfTree {
         PrintRightView(root);
         PrintTopView(root);
         PrintBottomView(root);
+        PrintHorizantalView(root);
+        printVerticalView(root);
     }
 }
 
