@@ -1,0 +1,19 @@
+
+Graphs:
+
+    Types of graphs:
+        1.) Weighted graph (every edge is associated with a weight)
+        2.) Unweighted graph (there is no weight associated with an edge)
+        3.) Directed graph (has direction)
+        4.) Undirected graph (does not have any direction)
+
+    A --- B 
+    | \
+    C  D --- F -> nodes or vertices
+    | -> edges
+    E
+
+    Traversals:
+        1.) BFS -> using Queue -> TC: O(V+E)
+        2.) DFS -> using Stack -> TC: O(V+E) SC:O(V)
+
