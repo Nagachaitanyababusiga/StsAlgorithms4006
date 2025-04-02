@@ -11,6 +11,7 @@ public class Class25Practice{
 
 class Graph{
     LinkedList<Integer> aList[];
+    @SuppressWarnings("unchecked")
     Graph(int v){
         aList=new LinkedList[v];
         for(int i=0;i<v;i++) aList[i]=new LinkedList<>();
