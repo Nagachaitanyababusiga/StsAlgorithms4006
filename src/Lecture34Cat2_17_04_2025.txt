@@ -1,0 +1,28 @@
+Question-01: What is the most efficient complexity to recover a bst O(n)
+2.) Left view :- level order
+3.) Dial alogorithm :- non negative edge weights
+4.) 
+5.) Bellmen ford no of iterations:- V-1
+6.) not efficient in binomial help :- Random access by index
+7.) what is primary use of winner tree :- efficient merging of sorted arrays
+8.) which is true about binomial heap :- It contains a collection of binomial trees
+9.) what happens in karray heap :- last element is deleted and rearrange down elements (heapify)
+10.) left child of a tree:- 2*i+1
+11.) how does Bellmen ford detect a negative weight cycle :- additional iteration
+12.) which is true about DFS and BFS :- DFS - stack; BFS - Queue;
+13.) vertical order traversal: - top view
+14.) which data structure is used in dials alogorithm :- list of queues
+15.) what is TC of inserting a element in binonial heap:- O(logn)
+16.) buckets in dials :- max weight* vetirces count+1;
+17.) boundary traversal in reverse:- right,left leaves.
+18.) Dials alogorithm is modified version :- dijistras alogorithm
+19.) use of winner tree:- 
+20.) operation in binaomial heap:- combing trees of the same order
+
+coding questions:-
+
+21.) Recover BST (inorder traversal) and find sum of all leaf nodes and print post order traversal.
+22.) Vertical order traversal and find the sum at each order sum 
+23.) Topological sort
+24.) Bellmen ford
+25.) 
